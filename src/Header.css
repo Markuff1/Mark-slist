@@ -1,0 +1,19 @@
+.HeaderBackground{
+    background-color: rgb(33, 95, 187);
+    height: 6vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    Top: 0;
+    width: 100%;
+
+}
+
+
+.HeaderText{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1vh;
+    font-size: 3.5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

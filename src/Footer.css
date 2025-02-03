@@ -1,0 +1,19 @@
+.FooterBackground{
+    background-color: rgb(33, 95, 187);
+    height: vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+.FooterText{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1vh;
+    font-size: 2vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
