@@ -9,7 +9,7 @@ function Header() {
     <div className="HeaderBackground">
       <div className="HeaderContainer">
         <div className="HeaderText1">
-          Mark's Birthday List
+          Mark's Birthday List v2
         </div>
         <div className="HeaderText2">
           <BirthdayCountdown/>
