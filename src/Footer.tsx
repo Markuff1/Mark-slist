@@ -8,7 +8,6 @@ function Footer() {
   return (
     <div className="FooterBackground">
       <div className="FooterText">
-        The Best 2K Website in the world
       </div>
     </div>
   );

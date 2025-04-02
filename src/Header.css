@@ -10,10 +10,70 @@
 }
 
 
-.HeaderText{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 1vh;
+.HeaderContainer {
+    width: 100%;
+    position: relative; /* Allows absolute positioning inside */
+    padding: 10px 0;
+}
+
+.HeaderText2 {
+    color: white;
+    font-size: 1.5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0.2vh;
+    margin-left: 2vh;
+    margin-bottom: 0.5vh;
+    float: left; /* Aligns to the left */
+}
+
+.HeaderText1 {
+    color: white;
     font-size: 3.5vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0.5vh;
+    margin-left: 2vh;
+    margin-bottom: 0.2vh;
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centers the text */
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+nav .fas{
+    display: block;
+    font-size: 25px;
+}
+
+nav ul{
+    background: rgb(34, 79, 34);
+    position: fixed;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    height: 100vh;
+    padding-top: 40px;
+    z-index: 2;
+    transition: right 0.5s;
+}
+
+nav ul li{
+    display: block;
+    margin: 15px;
+}
+
+nav ul .fas{
+    position: absolute;
+    top: 20px;
+    margin-bottom: 20px;
+    left: 12px;
+    cursor: pointer;
+}
+
+li,a,button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #edf0f1;
+    text-decoration: none;
 }

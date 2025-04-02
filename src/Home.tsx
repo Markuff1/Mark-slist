@@ -7,7 +7,6 @@ import React from "react";
 function Home() {
   return (
       <div className="HomeText1">
-        Now using React.ts
       </div>
   );
 }
